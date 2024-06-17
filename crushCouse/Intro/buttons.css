@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>button</title>
-  <style>
     .subscribe-button{
       background-color: red;
-      color: white;s
+      color: white;
       border: none;
       padding: 10px;
       border-radius: 2px;
@@ -59,16 +52,5 @@
       vertical-align: top;
     }
     .tweet-button:hover{
-      box-shadow: 5px 5px 15px  rgba(0, 0, 0, 1.5);
+      box-shadow: 5px 5px 15px  rgba(0, 0, 0, 1);
     }
-  </style>
-</head>
-<body>
-
-  
-  <button class="subscribe-button">SUBSCRIBE</button>
-  <button class="join-button ">JOIN</button>
-  <button class="tweet-button">Tweet</button>
-  
-</body>
-</html>
