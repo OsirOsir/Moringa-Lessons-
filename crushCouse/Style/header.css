@@ -99,10 +99,14 @@
 }
 .notifications-count{
   position: absolute;
-  top: 0;
-  right: 0;
-  background-color: red;
+  top: -2px;
+  right: -2px;
+  background-color: rgb(196, 20, 20);
   color: white;
+  font-family: Roboto, arial;
+  font-size: 11px;
+  padding: 2px 5px 2px 5px;
+  border-radius: 10px;
 
 }
 .current-user-picture{
