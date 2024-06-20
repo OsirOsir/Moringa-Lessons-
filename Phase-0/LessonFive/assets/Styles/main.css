@@ -1,5 +1,5 @@
 body{
-  height: 1000px;
+  height: 1200px;
   /* margin: 0;
   padding: 0; */
   position: relative;
@@ -10,6 +10,8 @@ main{
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin: 60px;
   list-style: none;
+  row-gap: 50px;
+  
 }
 
 .card{
@@ -20,9 +22,6 @@ main{
  cursor: pointer;
 }
 .card:hover{
-  /* width: 230px;
-  box-shadow: -1px 1px 10px rgba(0, 0, 0, 0.5);
-  height: 100%; */
   transform: translateY(10px);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); 
 }
