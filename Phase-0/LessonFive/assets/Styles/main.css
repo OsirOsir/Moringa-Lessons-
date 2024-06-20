@@ -1,21 +1,46 @@
+body{
+  height: 1000px;
+  /* margin: 0;
+  padding: 0; */
+  position: relative;
+}
+
 main{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 60px;
 }
 
 .card{
- border: 2px solid red;
+ /* border: 1px solid gray; */
  width: 200px;
+ box-shadow: -1px 1px 10px rgba(0, 0, 0, 0.5);
+ transition: box-shadow 1.15s, width 1.15s, height 1.15s;
+}
+.card:hover{
+  width: 230px;
+  box-shadow: -1px 1px 10px rgba(0, 0, 0, 0.5);
+  height: 100%;
 }
 
 .card img{
   height: 200px;
   width: 100%;
   object-fit: cover;
-  object-position: right;
+  object-position: right top ;
 }
 
-h3 ~ p{
+.card h3{
+  padding-top: 10px;
   padding-left: 10px;
+  font-size: 20px;
+}
+.card p{
+  padding-left: 15px;
+}
+
+audio{
+  width: 100%;
+  cursor: pointer;
+  box-sizing: border-box;
 }
