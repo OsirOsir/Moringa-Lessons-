@@ -1,1 +1,4 @@
 attributes - explains or gives more description about an element 
+inline css  using attributes
+internal Css or Embeded
+External
