@@ -1,5 +1,5 @@
 body{
-  height: 1200px;
+  height: 1600px;
   /* margin: 0;
   padding: 0; */
   position: relative;
@@ -15,7 +15,6 @@ main{
   padding-left: 80px;
   
 }
-
 .card{
  /* border: 1px solid gray; */
  width: 200px;
@@ -28,7 +27,6 @@ main{
   transform: translateY(10px);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); 
 }
-
 .card img{
   height: 200px;
   width: 100%;
@@ -37,7 +35,6 @@ main{
   border-radius: 10px;
 
 }
-
 .card h3{
   padding-top: 10px;
   padding-left: 10px;
@@ -50,4 +47,66 @@ main{
 audio{
   width: 100%;
   cursor: pointer;
+}
+.div_form{
+  display: none;
+  margin-left: 100px;
+  width: 453px;
+}
+.hidden-checkbox {
+  display: none;
+}
+.hidden-checkbox:checked ~ .div_form {
+  display: block;
+}
+.div_form h2{
+  text-align: center;
+  color: rgb(58, 158, 216);
+}
+form{
+  background-color: rgb(206, 197, 197);
+  display: flex;
+  flex-direction: column;
+  align-items: first baseline;
+  /* row-gap: 5px; */
+  width: 453px;
+  font-size: 20px;
+  padding: 10px;
+  color: rgb(58, 158, 216);
+  border-radius: 10px;
+}
+
+.name_details{
+  display: flex;
+  flex-direction: column;
+}
+.input_row{
+  display: flex;
+}
+
+.input_row input[type="text"]{
+  width: 220px;
+  margin-right: 10px;
+}
+input[type="text"] {
+  width: 450px;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="submit"]{
+  width: 200px;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 5px;
+  
+}
+form input[type="text"]{
+  margin-bottom: 30px;
 }

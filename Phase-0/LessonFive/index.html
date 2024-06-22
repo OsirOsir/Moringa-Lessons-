@@ -12,8 +12,9 @@
 <body>
   <header class="header">
     <h1>Bit by Bit Music Store</h1>
-    <button>Add Album</button>
+    <label for="toggle-form">Add Album</label>
   </header>
+  <input type="checkbox" id="toggle-form" class="hidden-checkbox">
   <main>
       <li>
         <div class="card">
@@ -80,19 +81,25 @@
         </div>
       </li>
   </main>
-  <div>
-    <form action="albumForm">
-      <label for="">Artist Name:</label>
-      <input type="text">
-
+  <div class="div_form">
+    <h2>Music Form</h2>
+    <form action="submit_album">
+      <div class="name_details">
+        <label for="first_name">Artist Name:</label>
+        <div class="input_row">
+          <input type="text" id="first_name" name="last_name" placeholder="First">
+          <!-- <label for="last_name"></label> -->
+          <input type="text" id="last_name" name="last_name" placeholder="Last">  
+        </div>
+      </div>
       <label for="">Country:</label>
-      <input type="text">
+      <input type="text" id="country" name="country">
 
       <label for="">Album Name:</label>
-      <input type="text">
+      <input type="text" id="album_name" name="album_name">
 
       <label for="">Genre:</label>
-      <input type="text">
+      <input type="text" id="genre" name="genre">
 
       <input type="submit" name="submit" id="SubmitButton">
     </form>
