@@ -53,12 +53,6 @@ audio{
   margin-left: 100px;
   width: 453px;
 }
-.hidden-checkbox {
-  display: none;
-}
-.hidden-checkbox:checked ~ .div_form {
-  display: block;
-}
 .div_form h2{
   text-align: center;
   color: rgb(58, 158, 216);

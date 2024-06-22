@@ -40,9 +40,10 @@
   transform: translateY(-3px);
   color: rgb(37, 27, 27);
 }
-/* .div_form{
+.hidden-checkbox {
   display: none;
-  margin-left: 100px;
-  width: 453px;
-} */
+}
+.hidden-checkbox:checked ~ .div_form {
+  display: block;
+}
 
