@@ -39,10 +39,6 @@
   transform: translateY(-3px);
   color: rgb(37, 27, 27);
 }
-.hidden-checkbox {
-  display: none;
-}
-.hidden-checkbox:checked ~ .div_form {
-  display: block;
-}
+
+
 
