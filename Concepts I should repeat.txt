@@ -1,0 +1,6 @@
+Concepts  I should repeat reading 
+
+
+1. Passing Functions as Arguments
+2. Define Callback Functions
+3. High order function in JS
