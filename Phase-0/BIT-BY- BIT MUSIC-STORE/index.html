@@ -12,14 +12,27 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
-<body>
+<body class="main-body">
   <header class="header">
     <h1>Bit by Bit Music Store</h1>
     <div class="searchInput">
       <input type="search" placeholder="Search Music">
       <img src="assets/SearchIcon.png" alt="">
     </div>
-    <label>Add Album</label>
+    <button id="button">Add Album</button>
+    <div id="formModalBody">
+      <h2>Add Music Form</h2>
+      <span class="closeForm" id="modal-closeForm">
+        <i class="fa fa-times" aria-hidden="true"></i>
+      </span>
+      <form class="musicSubmit-Form" id="musicSubmitForm">
+        <input type="text" id="albumImage" placeholder="Enter Image Link" required>
+        <input type="text" id="musicTitle" placeholder="Enter Music Title" required>
+        <input type="text" id="artistName" placeholder="Enter Artist Name" required>
+        <input type="text" id="musicLink" placeholder="Enter music link" required>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
   </header>
   <main>
     <div class="theHeaderDetails">
@@ -96,7 +109,7 @@
       </li> -->
     </ul>
     <!-- display music content on a modal -->
-    <div id="myModal" class="musicInfomodal">
+    <div id="myModal" class="musicInfomodal" style="display: none;">
       <div class="musicModal-content">
         <span class="close" id="modal-close">
           <i class="fa fa-times" aria-hidden="true"></i>
@@ -119,7 +132,7 @@
   <footer>
     <p>&#169 2024 Bit by Bit Music Store</p>
   </footer>
-  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <script src="music.js"></script>
   <!-- <script src="index.js"></script> -->
 </body>

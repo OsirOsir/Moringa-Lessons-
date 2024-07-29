@@ -1,60 +1,74 @@
 {
   "musicList": [
     {
-      "id": 1,
+      "id": "1",
       "musicImageLink": "assets/koffi.jpeg",
       "musicTitle": "L'Orfevre",
       "artistName": "Kiffi Olamide",
       "audioLink": "assets/Music/Koffi Olomid – Zro faute (2).mp3"
     },
     {
-      "id": 2,
+      "id": "2",
       "musicImageLink": "assets/snappy.png",
       "musicTitle": "Freedom",
       "artistName": "Snappy",
       "audioLink": "assets/Music/Nirvana – Sappy.mp3"
     },
     {
-      "id": 3,
+      "id": "3",
       "musicImageLink": "assets/Shusho.png",
       "musicTitle": "Nashusha Nyavu",
       "artistName": "Christina Shusho",
       "audioLink": "assets/Music/Christina Shusho – Shusha Nyavu.mp3"
     },
     {
-      "id": 4,
-      "musicImageLink": "assets/channels4_profile.jpg",
-      "musicTitle": "All Night",
-      "artistName": "Snappy G",
-      "audioLink": "assets/Music/Nirvana – Sappy.mp3"
-    },
-    {
-      "id": 5,
+      "id": "5",
       "musicImageLink": "assets/Alain.png",
       "musicTitle": "Bye Bye Bye",
       "artistName": "Alain",
       "audioLink": "assets/Music/Alaine – Bye Bye Bye.mp3"
     },
     {
-      "id": 6,
+      "id": "6",
       "musicImageLink": "assets/JahCure.png",
       "musicTitle": "A Thousand Miles",
       "artistName": "Jah cure",
       "audioLink": "assets/Music/Jah Cure – All Of Me.mp3"
     },
     {
-      "id": 7,
+      "id": "7",
       "musicImageLink": "assets/PeterMorgan.png",
       "musicTitle": "Sunshine Girl",
       "artistName": "Peetah Morgan ft J Boog",
       "audioLink": "assets/Music/J Boog – Sunshine Girl.mp3"
     },
     {
-      "id": 8,
+      "id": "8",
       "musicImageLink": "assets/busysignal.jpeg",
       "musicTitle": "Free Up",
       "artistName": "Busy Signal",
       "audioLink": "assets/Music/Busy Signal – Free Up.mp3"
+    },
+    {
+      "id": "4",
+      "musicImageLink": "assets/channels4_profile.jpg",
+      "musicTitle": "All Night",
+      "artistName": "Snappy G",
+      "audioLink": "assets/Music/Nirvana – Sappy.mp3"
+    },
+    {
+      "id": "7d58",
+      "musicImageLink": "assets/koffi.jpeg",
+      "musicTitle": "L'Orfevre",
+      "artistName": "Kiffi Olamide",
+      "audioLink": "assets/Music/Koffi Olomid – Zro faute (2).mp3"
+    },
+    {
+      "id": "d9ae",
+      "musicImageLink": "assets/koffi.jpeg",
+      "musicTitle": "L'Orfevre",
+      "artistName": "Kiffi Olamide",
+      "audioLink": "assets/Music/Koffi Olomid – Zro faute (2).mp3"
     }
   ]
 }
