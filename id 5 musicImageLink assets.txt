@@ -1,0 +1,29 @@
+,
+    {
+      "id": 5,
+      "musicImageLink": "assets/Alain.png",
+      "musicTitle": "Bye Bye Bye",
+      "artistName": "Alain",
+      "audioLink": "assets/Music/Alaine – Bye Bye Bye.mp3"
+    },
+    {
+      "id": 6,
+      "musicImageLink": "assets/JahCure.png",
+      "musicTitle": "A Thousand Miles",
+      "artistName": "Jah cure",
+      "audioLink": "assets/Music/Jah Cure – All Of Me.mp3"
+    },
+    {
+      "id": 7,
+      "musicImageLink": "assets/PeterMorgan.png",
+      "musicTitle": "Sunshine Girl",
+      "artistName": "Peetah Morgan ft J Boog",
+      "audioLink": "assets/Music/J Boog – Sunshine Girl.mp3"
+    },
+    {
+      "id": 8,
+      "musicImageLink": "assets/busysignal.jpeg",
+      "musicTitle": "Free Up",
+      "artistName": "Busy Signal",
+      "audioLink": "assets/Music/Busy Signal – Free Up.mp3"
+    }

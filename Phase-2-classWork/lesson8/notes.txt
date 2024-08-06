@@ -1,0 +1,10 @@
+Declarative --- Focusing on what the program should accomplish 
+Imparative - Focusing on how the programming operates.... Explisitly  describes the actions a program should take
+              It focusese on how the program Operates 
+
+
+React is a JavaScript Library that makes our work easesr justsay its framework  
+
+npx create-react-app <name_of_app>
+npm start - starting react development server
+Types of component===> functional components(e use a normal function   but you cant fetch data ) and  Class based components  not comonly used(first prestin component ..  advantages are you can fetch data )

@@ -1,0 +1,36 @@
+<div id="formModalBody">
+        <form class="musicSubmit-Form" id="musicSubmitForm">
+          <input type="text" id="albumImage" placeholder="Enter Image Link">
+          <input type="text" id="musicTitle" placeholder="Enter Music Title">
+          <input type="text" id="artistName" placeholder="Enter Artist Name">
+          <input type="text" id="musicLink" placeholder="Enter music link">
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+      
+      function selectMusicItem() {
+        function openModal() {
+          let modalContent = document.getElementById("modal-info");
+          modalContent.innerHTML = `
+          <div class="modal-info" id="modal-info">
+          <div class="image-container">
+            <img src="${item.musicImageLink}" alt="album-image" />
+          </div>
+          <div class="music-information">
+            <h5>${item.musicTitle}</h5>
+            <p class="card-text">${item.artistName}</p>
+            <audio controls id="audioControls">
+              <source src="${item.audioLink}" type="audio/mpeg" />
+            </audio>
+          </div>
+        </div>
+          `;
+          modalContainer.style.display = "block";
+        }
+        function closeModal() {
+          modalContainer.style.display = "none"
+          document.getElementById("audioControls").src = ' '
+        }
+        albumCard.addEventListener("click", openModal)
+        modalClose.addEventListener("click", closeModal)
+      }

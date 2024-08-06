@@ -1,0 +1,14 @@
+.navbar {
+  
+}
+
+.container-fluid{
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 200px;
+  row-gap: 30px !important;
+
+}
+.collapse{
+ 
+}
