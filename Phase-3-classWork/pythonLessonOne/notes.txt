@@ -1,0 +1,16 @@
+strings ----- Can be a name  text  eg osir..........  
+intergers =  whole numbers
+float == decimal number
+boolean = True and False 
+lists === variable that holds mutiple Items at once or elements 
+tuples
+sets
+dictionaries
+functions
+
+
+
+###   you use  a snake case format while declaring a variable 
+print displays  the result 
+python/python3 <filename>  -- this helps in executing my pythone file 
+What of 3.12.3? 3.10.12?
