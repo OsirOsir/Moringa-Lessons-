@@ -1,0 +1,28 @@
+Databases -  (storage of data). Basically is a structured collection of data that is stored and managed in 
+a way that makes it easy to access, manipulate, and update. Think of it as 
+a digital filing system that helps organize information, making it available for various tasks like querying, reporting, and analysis. 
+
+Relational Databases()
+NoSql Databases
+
+
+Sqlite3 -  its a file based type of databases, its not based on 
+
+data types = TEXT, Intergers , BLOGS
+
+
+user information - id, fist_name, last_name, acount_number, location
+create new database - sqlite3 <name_of_database>
+create
+insert values to new table - INSERT INTO <table_name> VALUES(1, "Joseph", "Ngumbau", "Mombasa");
+insert multiple users - INSERT INTO <table_name> VALUES(2, "Lee", "Mwangi", "Kakamega"), (3, "Sammy", "Mwaura", "Nakura")
+
+add a new column to a table - ALTER TABLE <table_name> ADD COLUMN <new_column_name> <data_type>;
+update data in a table - UPDATE <table_name> SET <column_name> = <new_value>
+we can also rename the TABLE NAME  through  ALTER TABLE users RENAME TO bank_users
+
+from this conditions come in i.e 
+UPDATE users SET account_number = 010090000100 WHERE id = 1;
+
+Shit data from old table to new Table -  INSERT INTO <new_table_name> (id, first_name, last_name, location) SELECT (id, first_name, last_name, location) FROM <old_table_name>
+DROP TABLE is like deleting
